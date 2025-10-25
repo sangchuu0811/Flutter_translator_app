@@ -11,7 +11,7 @@ import 'package:http/http.dart' as http; // HTTP 통신을 통한 API 요청
 enum TtsState { playing, stopped }
 
 // API 키와 베이스 URL을 사용하여 Google Cloud Translation API에 직접 요청 송신
-const String googleApiKey = API키 입력";
+const String googleApiKey = "API키 입력";
 const String translationApiBaseUrl = 'translation.googleapis.com';
 
 // '자동 감지' 기능을 위한 상수 코드 정의
